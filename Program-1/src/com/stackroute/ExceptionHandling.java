@@ -12,7 +12,7 @@ class ExceptionHandling{
         } catch (Exception e) {
             System.out.println("e.getmessage()=" + e.getMessage());
         } finally {
-            System.out.println("This is final block");
+            System.out.println("Always execute");
         }
     }
 }
